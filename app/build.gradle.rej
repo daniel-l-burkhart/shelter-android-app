@@ -1,0 +1,13 @@
+diff a/app/build.gradle b/app/build.gradle	(rejected hunks)
+@@ -22,7 +22,11 @@
+      compile 'com.google.firebase:firebase-auth:11.8.0'
+      compile 'com.google.firebase:firebase-core:11.8.0'
+      compile 'com.google.android.gms:play-services-auth:11.8.0'
+++<<<<<<< HEAD
+ +    implementation 'com.google.firebase:firebase-database:11.8.0'
+++=======
++     compile 'com.anjlab.android.iab.v3:library:1.0.44'
+++>>>>>>> 91da01c1cc8184cbe513b02b8d2ef91c53ff92cf
+      implementation fileTree(dir: 'libs', include: ['*.jar'])
+      implementation 'com.android.support:appcompat-v7:26.1.0'
+      implementation 'com.android.support.constraint:constraint-layout:1.0.2'

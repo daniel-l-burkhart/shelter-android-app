@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.polok:clicknumberpicker-0.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/clicknumberpicker-0.1.2.aar/965146f235f8f92676b2a99534ee0372/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/clicknumberpicker-0.1.2.aar/965146f235f8f92676b2a99534ee0372/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.polok/clicknumberpicker/0.1.2/bb43761e3cd01456d96973aa6b978f1cbc062559/clicknumberpicker-0.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

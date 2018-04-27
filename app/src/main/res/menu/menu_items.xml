@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shelterconnect.controller.items.ReadItemActivity">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:orderInCategory="200"
+        />
+
+    <item
+        android:id="@+id/listItems"
+        android:orderInCategory="201"
+        android:title="Items List" />
+
+    <item
+        android:id="@+id/addItem"
+        android:orderInCategory="202"
+        android:title="Add Item" />
+
+    <item
+        android:id="@+id/editItems"
+        android:orderInCategory="203"
+        android:title="Edit Items"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/editWorkers"
+        android:orderInCategory="203"
+        android:title="Edit Workers"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:orderInCategory="204"
+        />
+
+    <item
+        android:id="@+id/presentation"
+        android:orderInCategory="204"
+        android:title="@string/special_button"
+        android:visible="false" />
+
+</menu>

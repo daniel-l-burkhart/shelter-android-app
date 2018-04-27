@@ -1,0 +1,162 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.example.shelterconnect.controller.LoginActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/goWorkerListDelete"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Worker Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goWorkerHome" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/requestToolbar"
+        android:layout_width="412dp"
+        android:layout_height="66dp"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolBarStyle" />
+
+    <Button
+        android:id="@+id/goItemList"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Item List"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestToolbar" />
+
+    <Button
+        android:id="@+id/goAddItem"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Add Item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestToolbar" />
+
+    <Button
+        android:id="@+id/goLoginPage"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Login Page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goAddItem" />
+
+    <Button
+        android:id="@+id/goWorkerList"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Worker List"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goItemList" />
+
+    <Button
+        android:id="@+id/newRequest"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Create Request"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goWorkerList" />
+
+    <Button
+        android:id="@+id/goDonorHome"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Go Donor Home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newRequest" />
+
+    <Button
+        android:id="@+id/goOrganizerHome"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Go Org Home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goDonorHome" />
+
+    <Button
+        android:id="@+id/goWorkerHome"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Go Worker Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewRequest" />
+
+    <Button
+        android:id="@+id/viewRequest"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:text="View Requests"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goLoginPage" />
+
+    <Button
+        android:id="@+id/donorViewRequest"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:text="View Donor Request"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goOrganizerHome" />
+
+    <Button
+        android:id="@+id/organizerViewRequest"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:text="View Organizer Request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goWorkerListDelete" />
+
+    <Button
+        android:id="@+id/workerViewRequest"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:text="View Worker request"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donorViewRequest" />
+
+    <Button
+        android:id="@+id/closedViewRequest"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="20dp"
+        android:text="View Closed Request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/organizerViewRequest" />
+
+</android.support.constraint.ConstraintLayout>
